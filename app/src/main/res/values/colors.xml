@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <color name="bgCream">#F3ECE4</color>
+    <color name="pinkButton">#FF6B8B</color>
+    <color name="pinkText">#FF7A98</color>
+    <color name="darkText">#2F2F2F</color>
+    <color name="whiteCard">#FFFFFF</color>
+    <color name="lightPink">#FDE8ED</color>
 </resources>

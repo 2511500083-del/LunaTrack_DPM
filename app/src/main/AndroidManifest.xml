@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
     <application
         android:allowBackup="true"
@@ -12,23 +11,14 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LunaTrack">
         <activity
-            android:name=".PengingatActivity"
+            android:name=".DetailArticle2Activity"
             android:exported="false" />
         <activity
-            android:name=".ProfilActivity"
+            android:name=".activity_detail_article1"
             android:exported="false" />
         <activity
-            android:name=".PesanActivity"
-            android:exported="false" />
-        <activity
-            android:name=".HomeActivity"
-            android:exported="false" />
-        <activity
-            android:name=".RegisterActivity"
-            android:exported="false" />
-        <activity
-            android:name=".LoginActivity"
-            android:exported="false" />
+            android:name=".ProfileActivity"
+            android:exported="false" /> <!-- Splash Screen -->
         <activity
             android:name=".SplashActivity"
             android:exported="true">
@@ -37,7 +27,25 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
+        </activity> <!-- Login -->
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" /> <!-- Register -->
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" /> <!-- Home -->
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false" /> <!-- Wawasan -->
+        <activity
+            android:name=".WawasanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DetailArticle1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".DetailArticle2Activity"
+            android:exported="false"/>
     </application>
 
 </manifest>

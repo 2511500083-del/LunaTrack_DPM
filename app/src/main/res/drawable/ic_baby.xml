@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+
+    <!-- Kepala bayi -->
+    <path
+        android:fillColor="@color/pinkButton"
+        android:pathData="M12,3A4,4 0,1 1,8 7A4,4 0,0 1,12 3Z"/>
+
+    <!-- Badan -->
+    <path
+        android:fillColor="@color/pinkButton"
+        android:pathData="M8,11C5.79,11 4,12.79 4,15V18C4,18.55 4.45,19 5,19H19C19.55,19 20,18.55 20,18V15C20,12.79 18.21,11 16,11H8Z"/>
+
+    <!-- Dot bayi -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M12,12.5A1.5,1.5 0,1 1,10.5 14A1.5,1.5 0,0 1,12 12.5Z"/>
+
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M11.3,15.2H12.7V17H11.3Z"/>
+
+</vector>

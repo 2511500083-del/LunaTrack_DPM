@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgCream">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <ImageButton
+            android:id="@+id/btnBack"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_back"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:layout_marginTop="16dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/satu"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Cara Membersihkan Area Kewanitaan"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:textColor="@color/darkText"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5 menit membaca"
+            android:textSize="14sp"
+            android:textColor="#888888"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:lineSpacingExtra="6dp"
+            android:textSize="16sp"
+            android:textColor="@color/darkText"
+            android:text="Menjaga kebersihan area kewanitaan merupakan bagian penting dari kesehatan reproduksi wanita.
+
+Bersihkan area kewanitaan menggunakan air bersih dari arah depan ke belakang untuk mencegah perpindahan bakteri.
+
+Hindari penggunaan sabun yang mengandung pewangi karena dapat mengganggu keseimbangan pH alami vagina.
+
+Gunakan pakaian dalam berbahan katun agar sirkulasi udara tetap baik.
+
+Ganti pembalut setiap 4–6 jam saat menstruasi.
+
+Segera konsultasikan ke tenaga kesehatan apabila muncul bau tidak sedap, rasa gatal, atau keputihan yang tidak normal."/>
+
+
+    </LinearLayout>
+
+</ScrollView>

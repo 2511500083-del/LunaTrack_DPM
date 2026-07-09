@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgCream">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <ImageButton
+            android:id="@+id/btnBack"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_back" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:layout_marginTop="16dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/dua" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Panduan Warna Keputihan"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/darkText" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4 menit membaca"
+            android:textSize="14sp"
+            android:textColor="#888888" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textSize="16sp"
+            android:lineSpacingExtra="6dp"
+            android:textColor="@color/darkText"
+            android:text="Keputihan adalah hal yang normal dialami oleh wanita. Namun, warna keputihan dapat menjadi tanda kondisi kesehatan tertentu.
+
+• Putih bening atau transparan
+Merupakan kondisi normal dan biasanya muncul saat masa subur.
+
+• Putih susu
+Masih tergolong normal apabila tidak disertai bau atau rasa gatal.
+
+• Kuning atau hijau
+Dapat mengindikasikan adanya infeksi, terutama jika disertai bau menyengat.
+
+• Abu-abu
+Sering dikaitkan dengan bacterial vaginosis dan sebaiknya segera diperiksa.
+
+• Cokelat
+Biasanya merupakan sisa darah menstruasi.
+
+• Merah
+Jika terjadi di luar jadwal menstruasi, sebaiknya konsultasikan dengan dokter.
+
+Segera periksakan diri apabila keputihan disertai nyeri, gatal, bau tidak sedap, atau perdarahan yang tidak biasa." />
+
+    </LinearLayout>
+
+</ScrollView>
