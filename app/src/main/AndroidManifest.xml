@@ -11,14 +11,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LunaTrack">
         <activity
+            android:name=".DetailArticle1Activity"
+            android:exported="false" />
+        <activity
             android:name=".DetailArticle2Activity"
             android:exported="false" />
-        <activity
-            android:name=".activity_detail_article1"
-            android:exported="false" />
-        <activity
-            android:name=".ProfileActivity"
-            android:exported="false" /> <!-- Splash Screen -->
+         <!-- Splash Screen -->
         <activity
             android:name=".SplashActivity"
             android:exported="true">
@@ -41,11 +39,14 @@
             android:name=".WawasanActivity"
             android:exported="false" />
         <activity
-            android:name=".DetailArticle1Activity"
+            android:name=".PesanActivity"
             android:exported="false" />
         <activity
-            android:name=".DetailArticle2Activity"
-            android:exported="false"/>
+            android:name=".ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PengingatActivity"
+            android:exported="false" />
     </application>
 
 </manifest>

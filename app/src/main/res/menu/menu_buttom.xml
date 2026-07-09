@@ -8,12 +8,12 @@
 
     <item
         android:id="@+id/nav_wawasan"
-        android:icon="@drawable/ic_wawasan"
+        android:icon="@drawable/material_symbols_menu_book_outline_rounded"
         android:title="Wawasan" />
 
     <item
         android:id="@+id/nav_pesan"
-        android:icon="@drawable/ic_chat"
+        android:icon="@drawable/mingcute_message_3_ai_line"
         android:title="Pesan" />
 
     <item

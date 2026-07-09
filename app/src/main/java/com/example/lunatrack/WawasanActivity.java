@@ -49,6 +49,7 @@ public class WawasanActivity extends AppCompatActivity {
 
         });
 
+/*
         btnDetail3.setOnClickListener(v -> {
 
             Intent intent = new Intent(
@@ -58,7 +59,9 @@ public class WawasanActivity extends AppCompatActivity {
             startActivity(intent);
 
         });
+*/
 
+/*
         btnLihatSemua.setOnClickListener(v -> {
 
             Intent intent = new Intent(
@@ -68,6 +71,7 @@ public class WawasanActivity extends AppCompatActivity {
             startActivity(intent);
 
         });
+*/
 
         // Menu Wawasan aktif
         bottomNav.setSelectedItemId(R.id.nav_wawasan);
