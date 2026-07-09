@@ -36,7 +36,7 @@ android {
 }
 
 dependencies {
-    implementation(libs.activity.ktx)
+    implementation("androidx.activity:activity-ktx:1.13.0")
     implementation(libs.appcompat)
     implementation(libs.constraintlayout)
     implementation(libs.material)
