@@ -120,7 +120,7 @@
                 android:paddingStart="15dp" />
 
             <ImageView
-                android:id="@+id/imgShowPassword"
+                android:id="@+id/imgShowKonfirmasiPassword"
                 android:layout_width="24dp"
                 android:layout_height="24dp"
                 android:src="@drawable/ic_eye" />

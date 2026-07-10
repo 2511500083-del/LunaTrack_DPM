@@ -12,7 +12,7 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class WawasanActivity extends AppCompatActivity {
 
-    BottomNavigationView bottomNav;
+    BottomNavigationView bottomNavigation;
 
     TextView btnDetail1, btnDetail2, btnDetail3, btnLihatSemua;
 
@@ -21,7 +21,7 @@ public class WawasanActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_wawasan);
 
-        bottomNav = findViewById(R.id.bottomNav);
+        bottomNavigation = findViewById(R.id.bottomNavigation);
         btnDetail1 = findViewById(R.id.btnDetail1);
         btnDetail2 = findViewById(R.id.btnDetail2);
         btnDetail3 = findViewById(R.id.btnDetail3);
@@ -74,9 +74,9 @@ public class WawasanActivity extends AppCompatActivity {
 */
 
         // Menu Wawasan aktif
-        bottomNav.setSelectedItemId(R.id.nav_wawasan);
+        bottomNavigation.setSelectedItemId(R.id.nav_wawasan);
 
-        bottomNav.setOnItemSelectedListener(item -> {
+        bottomNavigation.setOnItemSelectedListener(item -> {
 
             int id = item.getItemId();
 
@@ -92,12 +92,14 @@ public class WawasanActivity extends AppCompatActivity {
 
             } else if (id == R.id.nav_pesan) {
 
-                // TODO: Buka PesanActivity
+                startActivity(new Intent(WawasanActivity.this, PesanActivity.class));
+                finish();
                 return true;
 
             } else if (id == R.id.nav_profile) {
 
-                // TODO: Buka ProfileActivity
+                startActivity(new Intent(WawasanActivity.this, ProfileActivity.class));
+                finish();
                 return true;
 
             }

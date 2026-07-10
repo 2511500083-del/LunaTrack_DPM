@@ -1,3 +1,34 @@
 <resources>
     <string name="app_name">LunaTrack</string>
+    <string name="hai_pika">Hai, Pika 🌸</string>
+    <string name="jaga_kesehatan">Jaga kesehatanmu hari ini</string>
+    <string name="sen">Sen</string>
+    <string name="sel">Sel</string>
+    <string name="rab">Rab</string>
+    <string name="kam">Kam</string>
+    <string name="jum">Jum</string>
+    <string name="sab">Sab</string>
+    <string name="min">Min</string>
+    <string name="periode_haid_dalam">Periode haid dalam</string>
+    <string name="dua_hari">2 Hari</string>
+    <string name="prediksi_tanggal">Prediksi : 21 Mei 2026</string>
+    <string name="peluang_hamil">Peluang Hamil</string>
+    <string name="rendah">Rendah</string>
+    <string name="catat_haid">+ Catat Haid</string>
+    <string name="ringkasan_hari_ini">Ringkasan Hari Ini</string>
+    <string name="lihat_semua">Lihat Semua</string>
+    <string name="fase_siklus">Fase Siklus</string>
+    <string name="luteal">Luteal</string>
+    <string name="gejala">Gejala</string>
+    <string name="kembung">Kembung</string>
+    <string name="mood_emoji">😊</string>
+    <string name="mood">Mood</string>
+    <string name="tenang">Tenang</string>
+    <string name="day_1">1</string>
+    <string name="day_2">2</string>
+    <string name="day_3">3</string>
+    <string name="day_4">4</string>
+    <string name="day_5">5</string>
+    <string name="day_6">6</string>
+    <string name="day_7">7</string>
 </resources>

@@ -56,11 +56,13 @@
 
             <EditText
                 android:id="@+id/etEmail"
-                android:layout_width="match_parent"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:background="@null"
                 android:fontFamily="@font/poppins_medium"
                 android:hint="Email"
+                android:inputType="textEmailAddress"
                 android:paddingStart="15dp"
                 android:textSize="18sp" />
         </LinearLayout>

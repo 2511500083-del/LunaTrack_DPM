@@ -11,12 +11,14 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LunaTrack">
         <activity
+            android:name=".CatatHaidActivity"
+            android:exported="false" />
+        <activity
             android:name=".DetailArticle1Activity"
             android:exported="false" />
         <activity
             android:name=".DetailArticle2Activity"
-            android:exported="false" />
-         <!-- Splash Screen -->
+            android:exported="false" /> <!-- Splash Screen -->
         <activity
             android:name=".SplashActivity"
             android:exported="true">

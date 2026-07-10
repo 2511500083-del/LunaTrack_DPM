@@ -8,6 +8,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
+import android.widget.Button;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
@@ -28,6 +29,12 @@ public class HomeActivity extends AppCompatActivity {
 
         // Bottom Navigation
         BottomNavigationView bottomNav = findViewById(R.id.bottomNavigation);
+        Button btnCatatHaid = findViewById(R.id.btnCatatHaid);
+
+        btnCatatHaid.setOnClickListener(v -> {
+            Intent intent = new Intent(HomeActivity.this, CatatHaidActivity.class);
+            startActivity(intent);
+        });
         // Menu Home dipilih secara default
         bottomNav.setSelectedItemId(R.id.nav_hari_ini);
 
