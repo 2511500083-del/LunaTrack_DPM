@@ -152,31 +152,37 @@
 
                     <!-- Pengingat -->
                     <LinearLayout
+                        android:id="@+id/menuPengingat"
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
                         android:background="@drawable/bg_card"
                         android:gravity="center_vertical"
-                        android:paddingHorizontal="15dp">
+                        android:paddingHorizontal="15dp"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:foreground="?attr/selectableItemBackground">
 
                         <ImageView
                             android:layout_width="24dp"
                             android:layout_height="24dp"
                             android:src="@drawable/material_symbols_notification_audio"
-                            app:tint="#FF6B8F" />
-
+                            app:tint="#FF6B8F"/>
 
                         <TextView
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:text="Pengingat"
-                            android:textSize="16sp" />
+                            android:textSize="16sp"/>
 
                         <ImageView
                             android:layout_width="20dp"
                             android:layout_height="20dp"
-                            android:src="@drawable/vector" />
+                            android:src="@drawable/vector"/>
+
                     </LinearLayout>
+
+
 
                     <!-- Grafik -->
                     <LinearLayout
